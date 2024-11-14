@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID CARD</title>
+</head>
+<body>
+
+    <div id="main">
+        <img id="img1" >
+        <h1 id="name"></h1>
+        <p id="full"></p>
+        <p id="idno"></p>
+        <p id="ph"></p>
+        <p id="email"></p>
+        
+    </div>
+    <script>
+        
+        let main=document.getElementById("main");
+         main.style.border="1px solid black";
+         main.style.height="400px";
+         main.style.width="250px";
+         main.style.borderRadius="10px";
+         main.style.background="url(https://img.freepik.com/free-vector/blue-curve-patterned-background-vector_53876-162303.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1726012800&semt=ais_hybrid)";
+         main.style.backgroundSize="cover"
+         main.style.backgroundPosition="center";
+         main.style.margin="auto";
+         main.style.marginTop="100px";
+
+        let img=document.getElementById("img1");
+        img1.style.border="1px solid black";
+        img1.style.height="110px";
+        img1.style.width="110px";
+        img1.style.marginTop="42px";
+        img1.style.marginLeft="70px";
+        img1.style.borderRadius="100px";
+        img1.style.background="url(./me.jpeg)";
+        img1.style.backgroundSize="cover";
+
+        let name=document.getElementById("name");
+         name.innerHTML="SANDHYA RANI";
+         name.style.color="blue"
+         name.style.fontSize="20px";
+         name.style.textAlign="center";
+         name.style.fontFamily="calibri"
+
+        let full=document.getElementById("full");
+         full.innerHTML="<b>FULLSTACK DEVELOPER</b>";
+         full.style.fontFamily="calibri"
+         full.style.fontSize="12px"
+         full.style.textAlign="center";
+
+        let id=document.getElementById=("idno");
+         idno.innerHTML="<b>ID No :</b>509";
+         idno.style.textAlign="center";
+         idno.style.fontSize="14px";
+
+        let phone=document.getElementById=("ph");
+         ph.innerHTML="<b>Mobile :</b> 7993994909";
+         ph.style.textAlign="center";
+         ph.style.fontSize="14px";
+
+        let mail=document.getElementById=("email");
+         email.innerHTML="<b>E-mail :</b> sandy@gmail.com";
+         email.style.textAlign="center";
+         email.style.fontSize="15px";   
+
+    </script>
+</body>
+</html>
